@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
   s.name         = "Moya-ObjectMapper"
-  s.version      = "2.9"
+  s.version      = "3.0"
   s.summary      = "ObjectMapper bindings for Moya"
   s.description  = <<-EOS
   [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper) bindings for
   [Moya](https://github.com/Moya/Moya) for easier JSON serialization.
   Includes [RxSwift](https://github.com/ReactiveX/RxSwift/) bindings as well.
   Instructions on how to use it are in
-  [the README](https://github.com/bmoliveira/Moya-ObjectMapper).
+  [the README](https://github.com/lonsuntech/Moya-ObjectMapper).
   EOS
-  s.homepage     = "https://github.com/bmoliveira/Moya-ObjectMapper"
+  s.homepage     = "https://github.com/lonsuntech/Moya-ObjectMapper"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Ivan Bruel" => "ivan.bruel@gmail.com" }
   s.social_media_url   = "http://twitter.com/ivanbruel"

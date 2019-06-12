@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Ivan Bruel" => "ivan.bruel@gmail.com" }
   s.social_media_url   = "http://twitter.com/ivanbruel"
+  s.swift_versions = '5.0'
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.10'
   s.watchos.deployment_target = '3.0'
@@ -31,7 +32,7 @@ Pod::Spec.new do |s|
     ss.source_files = "Source/RxSwift/*.swift"
     ss.dependency "Moya-ObjectMapper/Core"
     ss.dependency "RxSwift", "~> 5"
-    ss.dependency "Moya/RxSwift"
+    ss.dependency "Moya/RxSwift", "~> 14.0.0-alpha.1"
   end
 
   s.subspec "ReactiveSwift" do |ss|
